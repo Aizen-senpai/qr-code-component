@@ -152,10 +152,10 @@ Library To Learn:
 
 ## Author
 
-- Website - [Shastr Singh](https://www.shastrisingh.com)
+- Website - [Shastri Singh](https://www.shastrisingh.com)
 - Frontend Mentor - [@Aizen-senpai](https://www.frontendmentor.io/profile/Aizen-senpai)
 
 
 ## Acknowledgments
 
-I would like to thank @ecemgo for taking the time to review and make suggestions to my CSS code, which worked together with a minor changes from myself.
+I would like to thank [@ecemgo](https://www.frontendmentor.io/profile/ecemgo) for taking the time to review and make suggestions to my CSS code, which worked together with a minor changes from myself.
