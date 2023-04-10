@@ -1,8 +1,8 @@
 body {
     background-color: #d6e2f0;
     text-align: center;
-}
 
+}
 
 /* div container for QR code image */
 .container {
@@ -10,21 +10,19 @@ body {
     height: 450px;
     width: 300px;
     border-radius: 25px;
-    margin: 100px auto 100px auto;
-
-
+    margin: 100px auto;
 }
 
-/* QR code */
+/* QR code styling */
 .qr-code-image {
     width: 90%;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
- 
 }
 
+/* Test styling */
 .text1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
@@ -42,14 +40,14 @@ body {
     width: 90%;
     margin: auto;
     padding-top: 20px;
-
 }
-
 
 /* Footer */
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 300px;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: #3e52a3; 
 }

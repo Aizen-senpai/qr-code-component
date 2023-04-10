@@ -13,70 +13,73 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://qr-code-component-ddb.pages.dev](https://qr-code-component-ddb.pages.dev/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- HTML5
+- CSS3
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Recapping over a few things I learned while working through this project. See code samples of areas below.
 
-To see how you can add code snippets, see below:
-
+Using Google Fonts To Link Font Styling
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+
+Using div container for the QR code and text content
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* div container for QR code image */
+.container {
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 100px auto 100px auto;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+Rounding the corners for QR code image and div container
+```css
+/* QR code styling */
+.qr-code-image {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
+Currently Learning:
+- HTML5
+- CSS3 - 
 
+Languages To Learn:
+- Javascript
+- Typescript
+- SQL
+- iQuery
+- Next.js
+
+Frameworks To Learn:
+- Bootstrap
+- Tailwind CSS
+- Laravel
+
+Library To Learn:
+- React
+ 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
@@ -90,7 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Shastri Singh](https://www.your-site.com)
-- Frontend Mentor - [y@Aizen-senpai](https://www.frontendmentor.io/profile/Aizen-senpai)
+- Website - [Shastri Singh](https://shastrisingh.com/)
+- Frontend Mentor - [@Aizen-senpai](https://www.frontendmentor.io/profile/Aizen-senpai)
 
 
