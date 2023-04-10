@@ -1,8 +1,49 @@
+body {
+    background-color: #d6e2f0;
+    text-align: center;
+}
 
 
+/* div container for QR code image */
+.container {
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 100px auto 100px auto;
 
 
+}
 
+/* QR code */
+.qr-code-image {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+ 
+}
+
+.text1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    width: 70%;
+    text-align:center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.text2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+
+}
 
 
 /* Footer */
