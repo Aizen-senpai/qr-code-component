@@ -1,24 +1,40 @@
 body {
     background-color: #d6e2f0;
-    text-align: center;
+
+    /* 
+    Suggestions from @ecemgo 
+    Remove:
+    text-align: center; 
+    */
+    /* Add the following: */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 
 }
 
 /* div container for QR code image */
 .container {
     background-color: white;
-    height: 450px;
+    height: 500px;
     width: 300px;
     border-radius: 25px;
-    margin: 100px auto;
+    /* 
+    Suggestions from @ecemgo
+    Remove:
+    margin: 100px auto; 
+    */
 }
 
 /* QR code styling */
 .qr-code-image {
     width: 90%;
+    align-items: center;
     margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px; /* removed auto and used 15px */
+    margin-right: 15px; /* removed auto and used 15px */
     border-radius: 25px;
 }
 
@@ -46,7 +62,11 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center;
+    /* 
+    Suggestions from @ecemgo
+    Remove:
     margin-top: 300px;
+    */
 }
 .attribution a { 
     color: #3e52a3; 
